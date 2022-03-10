@@ -13,6 +13,7 @@ export default function UserSearch() {
      setAlert("Please Enter Something " , "error")
     } else {
       //search UserSearch
+      console.log(text)
         searchUsers(text)
       setText('');
     }

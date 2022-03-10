@@ -19,7 +19,7 @@ export default function UserResult() {
                 />
             })
         }
-    </div>;
+    </div>
     } else {
         return <Spinner />
     }
